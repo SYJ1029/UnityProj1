@@ -17,7 +17,13 @@ public class tranform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = playerobject.transform.position;
-        transform.rotation = playerobject.transform.rotation * Quaternion.Euler(0.0f, 1.0f, 0.0f);
+    
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+
     }
 }
