@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49E980BE-8D54-A52C-B3B1-87EBAEB1D65B}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\firstunityprojject\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E980BE-8D54-A52C-B3B1-87EBAEB1D65B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E980BE-8D54-A52C-B3B1-87EBAEB1D65B}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\FirstUnityprojject\\assets\\scripts\\dynamiccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E980BE-8D54-A52C-B3B1-87EBAEB1D65B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dynamiccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E980BE-8D54-A52C-B3B1-87EBAEB1D65B}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\FirstUnityprojject\\assets\\scripts\\tranform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E980BE-8D54-A52C-B3B1-87EBAEB1D65B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tranform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E980BE-8D54-A52C-B3B1-87EBAEB1D65B}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\FirstUnityprojject\\assets\\scripts\\changelight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E980BE-8D54-A52C-B3B1-87EBAEB1D65B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changelight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tranform.cs",
+              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\Assets\\scripts\\tranform.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\tranform.cs",
+              "ToolTip": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\Assets\\scripts\\tranform.cs",
+              "RelativeToolTip": "Assets\\scripts\\tranform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:22:52.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChangeLight.cs",
+              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\Assets\\scripts\\ChangeLight.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ChangeLight.cs",
+              "ToolTip": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\Assets\\scripts\\ChangeLight.cs",
+              "RelativeToolTip": "Assets\\scripts\\ChangeLight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:57:03.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DynamicCreate.cs",
+              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\Assets\\scripts\\DynamicCreate.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DynamicCreate.cs",
+              "ToolTip": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\Assets\\scripts\\DynamicCreate.cs",
+              "RelativeToolTip": "Assets\\scripts\\DynamicCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:51:28.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Move.cs",
+              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\Assets\\scripts\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Move.cs",
+              "ToolTip": "E:\\myGit\\3-1\\unity\\FirstUnityprojject\\Assets\\scripts\\Move.cs",
+              "RelativeToolTip": "Assets\\scripts\\Move.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:28:08.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
