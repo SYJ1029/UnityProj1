@@ -3,18 +3,23 @@ using UnityEngine;
 
 public class DynamicCreate : MonoBehaviour
 {
+    public GameObject[] newobject = new GameObject[3];
+    public float interval = 5.0f;           // 积己 林扁
+    public float spawnDistance = 5.0f;      // 积己 芭府
 
-    public GameObject newobject;
+    private float timer = 0f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        GameObject object0 = Instantiate(newobject, new Vector3(2.0f, 1.0f, 0.0f), Quaternion.identity);
-        Destroy(object0, 1.0f);
+        timer += Time.deltaTime;
+
+        if (timer >= interval)
+        {
+            timer = 0f;
+
+            Vector3 spawnPosition = transform.position + transform.forward * spawnDistance;
+
+            GameObject obj = Instantiate(newobject[0], spawnPosition, Quaternion.identity);
+        }
     }
 }

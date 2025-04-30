@@ -1,30 +1,28 @@
 using UnityEngine;
 
-public class Tranform : MonoBehaviour
+public class goBullet : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject playerobject;
-
-    void Awake()
-    {
-
-    }
-   
     void Start()
     {
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-    
+        if (gameObject.activeSelf)
+        {
+            
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Bullet")
+        if(collision.gameObject.tag == "Enemy")
         {
-            Destroy(gameObject);
+            transform.position = GetComponentInParent<Transform>().position;
+            gameObject.SetActive(false);
         }
 
     }

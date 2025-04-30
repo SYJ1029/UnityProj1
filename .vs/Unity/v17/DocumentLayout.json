@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\abg09\\MyGit\\Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|c:\\users\\abg09\\mygit\\unity\\assets\\scripts\\tranform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|C:\\Users\\abg09\\MyGit\\Unity\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|C:\\Users\\abg09\\MyGit\\Unity\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|c:\\users\\abg09\\mygit\\unity\\assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|C:\\Users\\abg09\\MyGit\\Unity\\assets\\scripts\\dynamiccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dynamiccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|C:\\Users\\abg09\\MyGit\\Unity\\assets\\scripts\\tranform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tranform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|C:\\Users\\abg09\\MyGit\\Unity\\assets\\scripts\\gobullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gobullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraMove.cs",
+              "DocumentMoniker": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\CameraMove.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CameraMove.cs",
+              "ToolTip": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\CameraMove.cs",
+              "RelativeToolTip": "Assets\\scripts\\CameraMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:37:28.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Move.cs",
+              "ToolTip": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\Move.cs",
+              "RelativeToolTip": "Assets\\scripts\\Move.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:35:05.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DynamicCreate.cs",
+              "DocumentMoniker": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\DynamicCreate.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DynamicCreate.cs",
+              "ToolTip": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\DynamicCreate.cs",
+              "RelativeToolTip": "Assets\\scripts\\DynamicCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:28:40.786Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Fire.cs",
+              "DocumentMoniker": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\Fire.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Fire.cs",
+              "ToolTip": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\Fire.cs",
+              "RelativeToolTip": "Assets\\scripts\\Fire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T13:55:27.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "goBullet.cs",
+              "DocumentMoniker": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\goBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\goBullet.cs",
+              "ToolTip": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\goBullet.cs",
+              "RelativeToolTip": "Assets\\scripts\\goBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T13:50:40.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "tranform.cs",
               "DocumentMoniker": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\tranform.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\tranform.cs",
               "ToolTip": "C:\\Users\\abg09\\MyGit\\Unity\\Assets\\scripts\\tranform.cs",
               "RelativeToolTip": "Assets\\scripts\\tranform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T04:31:26.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T04:31:26.046Z"
             }
           ]
         }
