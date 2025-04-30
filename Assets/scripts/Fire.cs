@@ -1,15 +1,10 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Tranform : MonoBehaviour
+public class Fire : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject playerobject;
-
-    void Awake()
-    {
-
-    }
-   
+    public GameObject bullet;
     void Start()
     {
     }
@@ -17,13 +12,11 @@ public class Tranform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+        if (Input.GetKeyUp(KeyCode.Return))
+        {
+            bullet.SetActive(true);
+        }     
     }
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(gameObject);
-
-    }
+   
 }

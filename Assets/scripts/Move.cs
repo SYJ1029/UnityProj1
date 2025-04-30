@@ -33,7 +33,7 @@ public class Move : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(new Vector3(3.0f, 0.0f, 0.0f));
-            transform.Rotate(new Vector3(1.0f, 0.0f, 0.0f));
+            //transform.Rotate(new Vector3(1.0f, 0.0f, 0.0f));
     
         }
 
