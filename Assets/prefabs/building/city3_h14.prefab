@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -4650349572756930564}
   m_Layer: 0
   m_Name: city3_h14
-  m_TagString: Untagged
+  m_TagString: Constructures
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -3,6 +3,9 @@ using UnityEngine;
 public class goBullet : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    float MaxTime = 30.0f;
+    float decord_time = 0.0f;
     void Start()
     {
         
@@ -11,19 +14,25 @@ public class goBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameObject.activeSelf)
+        if(decord_time > MaxTime)
         {
-            
+            Destroy(gameObject);
         }
+
+        decord_time += Time.deltaTime;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Constructures")
         {
-            transform.position = GetComponentInParent<Transform>().position;
-            gameObject.SetActive(false);
+            Destroy(gameObject);
+            if(other.gameObject.tag == "Enemy")
+            {
+                Destroy(other.gameObject);
+            }
         }
-
     }
+
+ 
 }

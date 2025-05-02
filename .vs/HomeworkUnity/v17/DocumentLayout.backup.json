@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\findgravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\findgravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\gobullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gobullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\findgravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\findgravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\tranform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,32 +39,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FindGravity.cs",
-              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\FindGravity.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\FindGravity.cs",
-              "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\FindGravity.cs",
-              "RelativeToolTip": "Assets\\scripts\\FindGravity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAwAAAAAAAAAA==",
+              "Title": "goBullet.cs",
+              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\goBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\goBullet.cs",
+              "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\goBullet.cs",
+              "RelativeToolTip": "Assets\\scripts\\goBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T08:40:47.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fire.cs",
-              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Fire.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Fire.cs",
-              "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Fire.cs",
-              "RelativeToolTip": "Assets\\scripts\\Fire.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:26:30.144Z",
+              "WhenOpened": "2025-05-02T09:12:30.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FindGravity.cs",
+              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\FindGravity.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\FindGravity.cs",
+              "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\FindGravity.cs",
+              "RelativeToolTip": "Assets\\scripts\\FindGravity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T08:40:47.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fire.cs",
+              "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Fire.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Fire.cs",
+              "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Fire.cs",
+              "RelativeToolTip": "Assets\\scripts\\Fire.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:26:30.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Tranform.cs",
               "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Tranform.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Tranform.cs",
@@ -72,15 +87,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Move.cs",
               "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Move.cs",
               "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Move.cs",
               "RelativeToolTip": "Assets\\scripts\\Move.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvyMAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvyMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:40:09.685Z"
+              "WhenOpened": "2025-04-30T08:40:09.685Z",
+              "EditorCaption": ""
             }
           ]
         }

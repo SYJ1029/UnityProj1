@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: c4_pillar
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec1ad649a6d7ce3489111507deb79867, type: 3}
+      propertyPath: m_TagString
+      value: Constructures
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

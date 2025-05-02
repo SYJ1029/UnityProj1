@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ams_house6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b39c6c425f00fbf4c9f42bed9fd48e83, type: 3}
+      propertyPath: m_TagString
+      value: Constructures
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
