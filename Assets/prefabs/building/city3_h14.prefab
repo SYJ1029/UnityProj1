@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6081312803564890618}
   - component: {fileID: 8323178295249460528}
   - component: {fileID: -4650349572756930564}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: city3_h14
   m_TagString: Constructures
   m_Icon: {fileID: 0}

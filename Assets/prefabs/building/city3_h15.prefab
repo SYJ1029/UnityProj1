@@ -53,6 +53,10 @@ PrefabInstance:
       value: city3_h15
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 805fb3fb74992424c951b2fd3eba42a9, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 805fb3fb74992424c951b2fd3eba42a9, type: 3}
       propertyPath: m_TagString
       value: Constructures
       objectReference: {fileID: 0}

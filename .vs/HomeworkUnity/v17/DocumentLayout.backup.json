@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\gobullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gobullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\gobullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gobullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "goBullet.cs",
               "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\goBullet.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\goBullet.cs",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Assets\\scripts\\goBullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T09:12:30.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T09:12:30.812Z"
             },
             {
               "$type": "Document",
@@ -87,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Move.cs",
               "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Move.cs",
               "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Move.cs",
               "RelativeToolTip": "Assets\\scripts\\Move.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvyMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T08:40:09.685Z",
               "EditorCaption": ""

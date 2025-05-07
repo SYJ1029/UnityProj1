@@ -13,7 +13,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - floor1
@@ -22,9 +22,9 @@ TagManager:
   - floor4
   - floor5
   - basement
-  - LoofTop
+  - Bulding
   - overlapped
-  - 
+  - Ammo
   - 
   - 
   - 

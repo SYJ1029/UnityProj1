@@ -53,6 +53,10 @@ PrefabInstance:
       value: ams_house3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0fb0025abbdc4e4a9701eb3ecd6c5f6, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a0fb0025abbdc4e4a9701eb3ecd6c5f6, type: 3}
       propertyPath: m_TagString
       value: Constructures
       objectReference: {fileID: 0}
