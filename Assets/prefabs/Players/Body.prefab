@@ -152,6 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveForce: 3
   mouseSensitivity: 3
+  maxSpeed: 20
 --- !u!1 &6175471073225802538
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,43 +19,42 @@ public class Move : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        Cursor.lockState = CursorLockMode.Locked;  // 마우스 커서 고정
 
         rb.maxLinearVelocity = maxSpeed;
     }
 
     void FixedUpdate()
     {
-        // 이동 계산
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            accel = (Vector3.forward * moveForce);
-
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            accel = (Vector3.back * moveForce);
-
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            accel = (Vector3.left * moveForce);
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            accel = (Vector3.right * moveForce);
-        }
-
-        //if(Input.GetKeyUp(KeyCode.W | KeyCode.A | KeyCode.S | KeyCode.D))
-        //{
-        //    accel = Vector3.zero;
-        //}
+       
     }
 
     void Update()
     {
-  
 
+        // 이동 계산
+        if (Input.GetKey(KeyCode.W))
+        {
+            accel += (Vector3.forward * moveForce);
+
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            accel += (Vector3.back * moveForce);
+
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            accel += (Vector3.left * moveForce);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            accel += (Vector3.right * moveForce);
+        }
+
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+        {
+            accel = Vector3.zero;
+        }
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
@@ -68,8 +67,7 @@ public class Move : MonoBehaviour
 
         rb.AddForce(accel);
 
-
-        // 마우스 회전
+        accel = Vector3.zero;
 
 
     }

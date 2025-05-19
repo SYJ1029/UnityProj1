@@ -7,7 +7,7 @@ public class Fire : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject bulletPrefab;
     public Transform firePoint;   
-    float bulletSpeed = 20f;
+    public float bulletSpeed = 20f;
     void Start()
     {
     }
