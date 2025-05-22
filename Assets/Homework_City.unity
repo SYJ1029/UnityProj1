@@ -55408,23 +55408,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 18
       objectReference: {fileID: 0}
-    - target: {fileID: 6704871889664427681, guid: 5985b9f31f1234d45abe1c9b7cc02720, type: 3}
-      propertyPath: maxSpeed
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 6704871889664427681, guid: 5985b9f31f1234d45abe1c9b7cc02720, type: 3}
+    - target: {fileID: 6453924290308616241, guid: 5985b9f31f1234d45abe1c9b7cc02720, type: 3}
       propertyPath: moveForce
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6704871889664427681, guid: 5985b9f31f1234d45abe1c9b7cc02720, type: 3}
-      propertyPath: mouseSensitivity
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8193925414818171508, guid: 5985b9f31f1234d45abe1c9b7cc02720, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5427043049623948152, guid: 5985b9f31f1234d45abe1c9b7cc02720, type: 3}

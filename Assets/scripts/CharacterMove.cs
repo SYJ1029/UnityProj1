@@ -1,11 +1,9 @@
 using UnityEngine;
-using System.Collections;
 
-
-public class Move : MonoBehaviour
+public class CharacterMOve : MonoBehaviour
 {
     float degree = 0.0f;
-    Rigidbody rb;
+    CharacterController controller;
     KeyCode prevKey;
 
     public float moveForce;
@@ -18,13 +16,13 @@ public class Move : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        controller = GetComponent<CharacterController>();
 
     }
 
     void FixedUpdate()
     {
-       
+
     }
 
     void Update()
@@ -64,12 +62,10 @@ public class Move : MonoBehaviour
         Camera.main.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
 
-        rb.AddForce(accel);
+        controller.Move(accel * Time.deltaTime);
 
         accel = Vector3.zero;
 
 
     }
-
-
 }
