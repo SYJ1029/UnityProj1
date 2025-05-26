@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|e:\\mygit\\3-1\\unity\\homeworkunity\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E83055B-3152-B318-ED7A-27443098B773}|Assembly-CSharp.csproj|E:\\myGit\\3-1\\unity\\HomeworkUnity\\assets\\scripts\\pickingfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,14 +56,14 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\CharacterMove.cs",
               "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\CharacterMove.cs",
               "RelativeToolTip": "Assets\\scripts\\CharacterMove.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAEAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T09:46:27.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Move.cs",
               "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Move.cs",
@@ -71,8 +71,7 @@
               "RelativeToolTip": "Assets\\scripts\\Move.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:40:09.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T08:40:09.685Z"
             },
             {
               "$type": "Document",
@@ -124,15 +123,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Fire.cs",
               "DocumentMoniker": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Fire.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Fire.cs",
               "ToolTip": "E:\\myGit\\3-1\\unity\\HomeworkUnity\\Assets\\scripts\\Fire.cs",
               "RelativeToolTip": "Assets\\scripts\\Fire.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:26:30.144Z"
+              "WhenOpened": "2025-04-30T09:26:30.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
