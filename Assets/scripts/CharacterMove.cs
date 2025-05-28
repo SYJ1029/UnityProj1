@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CharacterMove : MonoBehaviour
 {
@@ -31,10 +32,6 @@ public class CharacterMove : MonoBehaviour
     {
 
 
-       
-
-
-
         if (Input.GetKey(KeyCode.W))
         {
             accel += (Vector3.forward * moveForce);
@@ -56,7 +53,7 @@ public class CharacterMove : MonoBehaviour
 
 
        
-        if (Input.GetKeyDown(KeyCode.Space) && controller.transform.position.y == accel.y)
+        if (Input.GetKeyDown(KeyCode.Space) && controller.transform.position.y <= accel.y)
         {
             jumpSpeed = jumpForce;
         }
