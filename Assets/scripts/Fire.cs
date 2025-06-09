@@ -8,6 +8,8 @@ public class Fire : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firePoint;   
     public float bulletSpeed = 20f;
+    float elapsedTimes = 0.0f;
+    public float timeInterval = 0.5f; 
     void Start()
     {
     }
@@ -17,13 +19,22 @@ public class Fire : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            if (elapsedTimes >= timeInterval)
+            {
+                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
-            Rigidbody rb = bullet.GetComponent<Rigidbody>();
-            rb.linearVelocity = transform.forward * bulletSpeed;
-            rb.useGravity = false;
+                Rigidbody rb = bullet.GetComponent<Rigidbody>();
+                rb.linearVelocity = transform.forward * bulletSpeed;
+                rb.useGravity = false;
+                elapsedTimes = 0.0f;
+            }
+            
+            
         }
+
+        elapsedTimes += Time.deltaTime;
+
     }
 
-   
+
 }

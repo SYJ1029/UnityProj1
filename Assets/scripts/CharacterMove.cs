@@ -1,3 +1,4 @@
+using Unity.VisualScripting.InputSystem;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,13 +6,10 @@ public class CharacterMove : MonoBehaviour
 {
     float degree = 0.0f;
     CharacterController controller;
-    KeyCode prevKey;
 
     public float moveForce;
     public float maxSpeed;
 
-    public float jumpForce;
-    float jumpSpeed;
     private Vector3 accel = Vector3.zero;
 
 
@@ -20,7 +18,6 @@ public class CharacterMove : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
 
-        jumpSpeed = 0f;
     }
 
     void FixedUpdate()
@@ -51,19 +48,8 @@ public class CharacterMove : MonoBehaviour
             accel += (Vector3.right * moveForce);
         }
 
-
        
-        if (Input.GetKeyDown(KeyCode.Space) && controller.transform.position.y <= accel.y)
-        {
-            jumpSpeed = jumpForce;
-        }
-
-        if(jumpSpeed > 0.0f)
-        {
-            accel += Vector3.up * jumpSpeed;
-            jumpSpeed += Physics.gravity.y * 0.5f;
-        }
-
+       
         if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
         {
             accel = Vector3.zero;

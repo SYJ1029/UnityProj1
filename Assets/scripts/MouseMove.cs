@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class MouseMove : MonoBehaviour
 {
+    CharacterController characterController;
 
     public float mouseSensitivity;
 
@@ -11,7 +12,7 @@ public class MouseMove : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-
+        characterController = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -38,6 +39,9 @@ public class MouseMove : MonoBehaviour
         Camera.main.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
         // 좌우 회전: 플레이어 바디에만
-        transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
+        characterController.transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
+        //transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
+
+        characterController.Move(Vector3.zero);
     }
 }

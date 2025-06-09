@@ -33,21 +33,21 @@ public class Move : MonoBehaviour
         // 이동 계산
         if (Input.GetKey(KeyCode.W))
         {
-            accel += (Vector3.forward * moveForce);
+            accel += (transform.forward * moveForce);
 
         }
         if (Input.GetKey(KeyCode.S))
         {
-            accel += (Vector3.back * moveForce);
+            accel += (transform.forward * -1 * moveForce);
 
         }
         if (Input.GetKey(KeyCode.A))
         {
-            accel += (Vector3.left * moveForce);
+            accel += (transform.right * -1 * moveForce);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            accel += (Vector3.right * moveForce);
+            accel += (transform.right * moveForce);
         }
 
         if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
